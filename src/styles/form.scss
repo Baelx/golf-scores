@@ -1,0 +1,50 @@
+/* Forms */
+form {
+
+    .hole-column-header, .par-column-header {
+        display: flex;
+        justify-content: center;
+
+        span {
+            align-self: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+    }
+
+    .par-column-header {
+        span {
+            padding-left: 3px;
+        }
+    }
+
+    .hole-column {
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .hole-column, .par-column {
+        display: flex;
+        
+        span {
+            align-self: center;
+        }
+    }
+
+    .row {
+        margin-bottom: 0.75rem;
+
+        .form-control {
+            margin-bottom: 3px;
+        }
+    }
+}
+
+.button-row {
+    margin: 2rem 0;
+
+    .download-btn {
+        font-size: 1.5rem;
+    }
+}
