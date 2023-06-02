@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Golf Scores
 
 Golf Scores is a minimal, client-side score tracking app.
 
