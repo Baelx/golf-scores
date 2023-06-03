@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/golf-scores/static/css/main.ee6a5214.css",
-    "main.js": "/golf-scores/static/js/main.fe9dfbae.js",
+    "main.css": "/golf-scores/static/css/main.a4e468a0.css",
+    "main.js": "/golf-scores/static/js/main.ff4cfca7.js",
     "static/media/tiger.png": "/golf-scores/static/media/tiger.d462134c42b4b5bcba5e.png",
     "index.html": "/golf-scores/index.html",
-    "main.ee6a5214.css.map": "/golf-scores/static/css/main.ee6a5214.css.map",
-    "main.fe9dfbae.js.map": "/golf-scores/static/js/main.fe9dfbae.js.map"
+    "main.a4e468a0.css.map": "/golf-scores/static/css/main.a4e468a0.css.map",
+    "main.ff4cfca7.js.map": "/golf-scores/static/js/main.ff4cfca7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee6a5214.css",
-    "static/js/main.fe9dfbae.js"
+    "static/css/main.a4e468a0.css",
+    "static/js/main.ff4cfca7.js"
   ]
 }
