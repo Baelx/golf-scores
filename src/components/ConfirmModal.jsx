@@ -1,14 +1,16 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { useContext } from 'react';
-import { ModalContext } from '../context/modalContext';
+import { ModalContext, ScoreCardContext } from '../utils/context';
 import { clearLocalStorage } from '../utils/localStorageService';
 
 export const ConfirmModal = () => {
   const {showModal, setShowModal} = useContext(ModalContext);
+  const {clearScoreCardForm, setClearScoreCardForm} = useContext(ScoreCardContext);
 
   const handleClearData = () => {
     clearLocalStorage();
+    setClearScoreCardForm(true);
     setShowModal(false);
   }
 
