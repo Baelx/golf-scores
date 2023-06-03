@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/golf-scores/static/css/main.eec52e29.css",
+    "main.js": "/golf-scores/static/js/main.1de2ef93.js",
+    "static/media/tiger.png": "/golf-scores/static/media/tiger.d462134c42b4b5bcba5e.png",
+    "index.html": "/golf-scores/index.html",
+    "main.eec52e29.css.map": "/golf-scores/static/css/main.eec52e29.css.map",
+    "main.1de2ef93.js.map": "/golf-scores/static/js/main.1de2ef93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eec52e29.css",
+    "static/js/main.1de2ef93.js"
+  ]
+}

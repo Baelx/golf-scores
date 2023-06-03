@@ -20,7 +20,7 @@ export const ScoreCard = () => {
   }
 
   const handleDownloadBtn = () => {
-    console.log('lol');
+    console.log('test');
   }
 
     return (
@@ -54,6 +54,9 @@ export const ScoreCard = () => {
                 <span>3</span>
               </Col>
               <Col xs={5}>
+                <label>
+                  Putts
+                </label>
                 <Form.Control
                   placeholder='putts'
                   name="p1putt"
@@ -61,6 +64,9 @@ export const ScoreCard = () => {
                   value={score.p1putt}
                   onChange={(event) => handleFormChange(i, event)}
                 />
+                <label>
+                  Total
+                </label>
                 <Form.Control
                   placeholder='total'
                   name="p1total"
@@ -70,6 +76,9 @@ export const ScoreCard = () => {
                 />
               </Col>
               <Col xs={5}>
+                <label>
+                  Putts
+                </label>
                 <Form.Control
                   placeholder='putts'
                   name="p2putt"
@@ -77,6 +86,9 @@ export const ScoreCard = () => {
                   value={score.p2putt}
                   onChange={(event) => handleFormChange(i, event)}
                 />
+                <label>
+                  Total
+                </label>
                 <Form.Control
                     placeholder='total'
                     name="p2total"

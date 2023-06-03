@@ -35,6 +35,10 @@ form {
     .row {
         margin-bottom: 0.75rem;
 
+        label {
+            font-size: 1rem;
+        }
+
         .form-control {
             margin-bottom: 3px;
         }
