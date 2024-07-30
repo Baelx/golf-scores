@@ -1,16 +1,22 @@
 @use 'styles/form.scss';
 @use 'styles/header.scss';
 @use 'styles/footer.scss';
+@use 'styles/new-game-modal.scss';
 
 .App {
   text-align: center;
-  background-color: #2f4c40;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  main {
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
 }
 
 
